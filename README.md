@@ -1,5 +1,3 @@
-# 1007-7
-
 ## Installation
 
 ```sh
