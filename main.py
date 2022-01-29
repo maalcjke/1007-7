@@ -9,6 +9,11 @@ while True:
     #Dota 2
     if key.is_pressed('capslock'):
         while x > 7:
+            if(key.is_pressed('9')):
+                x = 1007
+                num = 1007
+                break
+            
             key.press_and_release("shift+enter")
             time.sleep(0.3)
             x = x - 7
@@ -17,9 +22,14 @@ while True:
             time.sleep(0.2)
             key.press_and_release('enter')
             time.sleep(0.2)
-    #Discord or chat in main menu
+    #Discord
     if key.is_pressed('tab'):
         while x > 7:
+            if(key.is_pressed('9')):
+                x = 1007
+                num = 1007
+                break
+
             x = x - 7
             num = str(f"{x}-7")
             pygui.write(str(num))
