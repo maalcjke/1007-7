@@ -17,7 +17,7 @@ while True:
             time.sleep(0.2)
             key.press_and_release('enter')
             time.sleep(0.2)
-    #Discord
+    #Discord or chat in main menu
     if key.is_pressed('tab'):
         while x > 7:
             x = x - 7
